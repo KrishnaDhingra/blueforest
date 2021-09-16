@@ -1,14 +1,18 @@
 import './index.css'
 import { Navbar } from './components/navbar.js'
 import { OnlineBar } from './components/online-bar.js'
+import { Feed } from './components/feed.js'
+import { Leaderboard } from './components/leaderboard.js'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div className="inner-container flex items-center justify-center py-3 px-8 border-2 border-red-300">
+      <div className="inner-container flex py-3 px-8">
 
-        {/* <OnlineBar/> */}
+        <Feed/>
+        <OnlineBar/>
+
       </div>
     </div>
   );

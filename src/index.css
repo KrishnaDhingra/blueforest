@@ -19,9 +19,10 @@
 }
 body {
   margin: 0;
+  background-color: rgb(251, 251, 255);
 }
 .navbar-left{
-  width: 35%;
+  width: 50%;
 }
 .online-circle{
   border-radius: 50%;
@@ -29,4 +30,12 @@ body {
 .online-bar-circle{
   height: 48px;
   width: 48px;
+}
+.feed-container, .leaderboard-container{
+  width: 25%;
+}
+.divider{
+  width: 160px;
+  border-top: 1.5px solid rgb(196, 194, 194);
+
 }
