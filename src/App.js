@@ -8,7 +8,7 @@ function App() {
       <Navbar/>
       <div className="inner-container flex items-center justify-center py-3 px-8 border-2 border-red-300">
 
-        <OnlineBar/>
+        {/* <OnlineBar/> */}
       </div>
     </div>
   );
