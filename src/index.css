@@ -27,10 +27,7 @@ body {
 .online-circle{
   border-radius: 50%;
 }
-.online-bar-circle{
-  height: 48px;
-  width: 48px;
-}
+
 .feed-container, .leaderboard-container{
   width: 25%;
 }
@@ -38,4 +35,9 @@ body {
   width: 160px;
   border-top: 1.5px solid rgb(196, 194, 194);
 
+}
+@media only screen and(max-width: 1600px) {
+  .feed-container, .leaderboard-container{
+    width: 40%;
+  }
 }

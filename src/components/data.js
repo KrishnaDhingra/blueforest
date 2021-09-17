@@ -11,7 +11,7 @@ export let feed_data = [
     },
     {
         name: 'Divyansh',
-        work: 'is learning about personas in project management',
+        work: 'is learning about personas',
         time: '40m ago'
     },
     {
