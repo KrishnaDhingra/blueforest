@@ -20,6 +20,7 @@
 body {
   margin: 0;
   background-color: rgb(251, 251, 255);
+  overflow: hidden;
 }
 .navbar-left{
   width: 50%;
@@ -29,15 +30,10 @@ body {
 }
 
 .feed-container, .leaderboard-container{
-  width: 25%;
+  width: 27%;
 }
 .divider{
   width: 160px;
   border-top: 1.5px solid rgb(196, 194, 194);
 
-}
-@media only screen and(max-width: 1600px) {
-  .feed-container, .leaderboard-container{
-    width: 40%;
-  }
 }

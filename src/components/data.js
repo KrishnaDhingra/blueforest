@@ -38,10 +38,5 @@ export let feed_data = [
         name: 'Yugma',
         work: 'is reading about history',
         time: '10m ago'
-    },
-    {
-        name: 'Viraj',
-        work: 'is learning about OOPS concepts in C++',
-        time: '2m ago'
-    },
+    }
 ]

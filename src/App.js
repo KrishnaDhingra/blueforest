@@ -18,7 +18,6 @@ export let App = () => {
         <Navbar/>
         <div className="inner-container flex py-3 px-8">
 
-          <p className="hello">This is leaderboard</p>
           {showFeed && <Feed/>}
           <OnlineBar/>
 
